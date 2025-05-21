@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ziyul Hasan E-Commerce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="brand-name" style="animation: scrollName 10s linear infinite; white-space: nowrap; overflow: hidden; display: inline-block;">Ziyul Hasan</h1>
+    <p class="date" id="currentDate"></p>
+    <noscript><p class="date">আজকের তারিখ দেখতে হলে আপনার ব্রাউজারে JavaScript চালু করুন।</p></noscript>
+  </header>
+
+  <section class="product-section">
+    <h2>Our Products</h2>
+    <div id="productContainer"></div>
+  </section>
+
+  <footer>
+    <p>Contact: 01890505251 | mdziyulhasanh@gmail.com</p>
+    <p>&copy; 2025 Ziyul Hasan E-Commerce</p>
+  </footer>
+
+  <style>
+    @keyframes scrollName {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+
+  <script src="main.js"></script>
+</body>
+</html>
